@@ -1,0 +1,109 @@
+mainColor = #FE4070 //主体红色
+mainTint =  #F5F5F5 // 背景浅色 与 浅色分割线
+
+fontColor = rgba(7, 17, 27, .8) //字体颜色
+
+fontTint = #999 // 浅色字体 一般这个
+fontMain = #7A7A7A //购物车主要的浅色字体的颜色
+
+borderColor = #e0e0e0  //边框的淡色
+
+numFont = .3675rem //数字的字体大小
+mainFont = .4rem  //主要字体大小
+
+bgColor = #F6F6F6
+//购物车的高度 1.5625rem
+
+
+// 小号字体
+smallFont($size=0.90)
+  font-size 12px
+  transform-origin 0 0
+  transform scale(.9)
+
+
+// 细线分割 在下方
+border-1px($width = 100%, $left=0)
+  position relative
+  &:after
+    display block
+    position absolute
+    bottom 0
+    left $left
+    width $width
+    border-top 1px solid fontTint
+    transform scaleY(.1)
+    transform-origin 0 100%
+    content ''
+
+// 细线分割在上方
+border-1px-top()
+  &:after
+    display block
+    position absolute
+    top 0
+    left 0
+    width 100%
+    border-top 1px solid borderColor
+    transform scaleY(.5)
+    transform-origin 0 100%
+    content ''
+
+border-none()
+  &:after
+    display none
+
+// 粗线分割
+border-line($height = 0.2rem, $scale = 1)
+  position relative
+  &:after
+    content ''
+    position absolute
+    left 0
+    right 0
+    bottom 0
+    height $height
+    width 10rem
+    transform scaleY($scale)
+    transform-origin 0 100%
+    background mainTint
+
+// 价格横线
+price-line($color, $size)
+  &:after
+    position absolute
+    content ''
+    right 0
+    top 50%
+    width .8rem
+    height 1px
+    background $color
+    transform scaleY($size)
+
+arrow-right($width,$top=.15rem,$left=0.8rem, $color=fontTint )
+ 
+  &:after
+    display block
+    position absolute
+    left $left
+    top $top
+    width $width
+    height $width
+    border-color $color
+    border-width  .01rem .01rem 0 0
+    border-style solid
+    transform rotate(45deg)
+    content ''
+
+// 我的页面 个人信息
+right-line()
+  &:after
+    display block
+    position absolute
+    right 0
+    top 27%
+    bottom 0
+    height .7rem
+    width 1.5px
+    background rgba(1,1,1,.1)
+    content ''
