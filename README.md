@@ -1,12 +1,14 @@
 # vue-jumei-app
-
 > 好的生活，聚集美丽，成人之美！从现在做起！
+![](https://github.com/wuyuanlijie/ImageFile/blob/master/JmBg/allBg.PNG)<br>
 
 ## 效果预览
 >### 👉预览地址：[请点我！在线预览，手机浏览或切换浏览器移动调试](http://www.jerrylee520.cn:8080/index.html#/index/page1)
 >### PS：google浏览器在切换不同的手机测试，需要重新刷新页面；安卓手机可能不适应
 >### 👉源码地址：[Github在这里](https://github.com/wuyuanlijie/vue-jumei-app)
-
+![](https://github.com/wuyuanlijie/ImageFile/blob/master/JmBg/jm1.gif)
+![](https://github.com/wuyuanlijie/ImageFile/blob/master/JmBg/jm2.gif)<br>
+![](https://github.com/wuyuanlijie/ImageFile/blob/master/JmBg/jm3.gif)<br>
 
 ## 项目描述
 ### 技术栈
@@ -224,7 +226,6 @@ const mutations = {
 export default {
   state,
   getters,
-  actions,
   mutations
 }
 
@@ -232,10 +233,10 @@ export default {
 
 
 ## 来个广告，拍卖自己！！！
-* 👉微信号：[感兴趣请点我，这是我的简历](http://www.jerrylee520.cn:3001/jerrylee.html) <br>
+* 👉jerrylee：[感兴趣请点我，这是我的简历](http://www.jerrylee520.cn:3001/jerrylee.html) <br>
 * 👉微信号：JerryLeelisa
-* 👉电话：<a href="tel:15279106115">15279106115</a> 
-* 👉邮箱：<a href=”mailto:958171512@qq.com”>958171512@qq.com</a> <br>
+* 👉电  话：<a href="tel:15279106115">15279106115</a> 
+* 👉邮  箱：<a href=”mailto:958171512@qq.com”>958171512@qq.com</a> <br>
 
 ## Build Setup
 
