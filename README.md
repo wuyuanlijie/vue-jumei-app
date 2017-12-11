@@ -232,11 +232,6 @@ export default {
 ```
 
 
-## 来个广告，拍卖自己！！！
-* 👉jerrylee：[感兴趣请点我，这是我的简历](http://www.jerrylee520.cn:3001/jerrylee.html) <br>
-* 👉微信号：JerryLeelisa
-* 👉电  话：<a href="tel:15279106115">15279106115</a> 
-* 👉邮  箱：<a href=”mailto:958171512@qq.com”>958171512@qq.com</a> <br>
 
 ## Build Setup
 
